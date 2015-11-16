@@ -1,0 +1,221 @@
+Imon9gag
+username:
+	huydao
+email:
+	Huy.DaoQuang@harveynash.vn
+external webmail:
+	https://webmail.harveynash.vn
+	HARVEYNASH\huydao
+Intranet:
+	https://intranet.harveynash.vn/SitePages/Home.aspx
+LMS:
+	https://leave.harveynash.vn/
+	huydao
+	123123
+Line manager: Ngo Quang Thanh
+skype:
+	fsoft_huydq9
+Ve xe: 3072
+Jira:
+	http://jira.uk.hermes-europe.co.uk/
+	http://jira.uk.hermes-europe.co.uk/secure/ForgotLoginDetails.jspa?username=hdaoquang
+	username:
+		hdaoquang/Im9gagger
+File server:
+	\\file_srv\Apps\Java Environment
+	\\file_srv\Apps\Utilities\Eclipse
+	\\file_srv\Apps\Utilities\Apache
+SVN:
+	http://bugzilla.harveynash.vn/repos/Hermes/HermesProjectResources/HODC/Document
+	http://bugzilla.harveynash.vn/repos/Hermes/HermesProjectResources/HODC_2015
+	svn://10.228.10.15/svn_repository/ClientDatabase/trunk
+	svn://10.228.10.15/svn_repository/hibernate-oracle/trunk/hibernate-oracle-clientdatabase
+	
+Jira VN:
+	https://jira.harveynash.vn/secure/Dashboard.jspa
+
+Wiki:
+	http://wiki.uk.hermes-europe.co.uk/display/DIV/Services+Interface+Specification
+	
+	SDLC (Software Development Life Cycle)
+
+	http://wiki.uk.hermes-europe.co.uk/display/DEV/Standards+and+Guidelines
+
+	Hermes REST API Design Standards:
+
+	http://wiki.uk.hermes-europe.co.uk/display/ISARCH/API+Design+Standards
+
+	Architecture (parent page):
+
+	http://wiki.uk.hermes-europe.co.uk/pages/viewpage.action?pageId=8257830
+
+	UK Architecture:
+
+	http://wiki.uk.hermes-europe.co.uk/display/ISARCH/Hermes+UK+IT+Architecture
+
+	Hermes Technology Stack:
+
+	http://wiki.uk.hermes-europe.co.uk/display/ISARCH/Hermes+Technology+Stack
+
+	Hermes API’s:
+
+	http://wiki.uk.hermes-europe.co.uk/pages/viewpage.action?pageId=9076907
+	
+	Momentum test env setup:
+	http://wiki.uk.hermes-europe.co.uk/display/MOM/Install+Test+Environment
+
+Depot-lean:
+	hisg076
+	password1
+	
+SVN ClientDatabase:
+	svn://10.228.10.15/svn_repository/ClientDatabase/trunk
+	haivucong / haipwd87
+	huydao / huypwd44	
+	
+ClientDatabase:
+	http://localhost:8080/ClientDatabase/login
+	Hisg076/adfadfasfsafasd
+	parameter:
+		Goal: clean package -DskipTests tomcat7:run
+		VM Arguments: -Xms256m -Xmx512m -XX:MaxPermSize=256m
+		Display in favorites menu: Debug
+		
+	Oracle DB:
+		IP: 172.20.131.20
+		Port: 1521
+		service name: pnethedb
+		user:pnet
+		pass: pnet_pnetp
+		
+	Local DB:
+		Remote: 172.16.23.216
+		172.16.23.83
+		172.16.23.60
+		.\hermes_odc / qweasd@1234
+		
+		Oracle: 172.16.23.216
+		SID: myhermes
+		system/Qweasd123
+		
+		username: clientdb
+		pass:123456
+		servicename : myhermes
+		
+		user:pnet
+		pass: pnet_pnetp
+	
+Proxy:
+	hn-ps-proxy03-l
+	3128
+	Bypass for: jira.uk.hermes-europe.co.uk;wiki.uk.hermes-europe.co.uk;kraken.uk.hermes-europe.co.uk
+	
+Timesheet:
+	https://ags.harveynash.vn/ags_main.aspx
+	http://na1.replicon.com/a/main.aspx
+	https://login.replicon.com/
+	hermesparcelnet/txuan/Thubeo123
+	
+Sonar:
+	http://kraken.uk.hermes-europe.co.uk:9001/sonar/
+	http://dist.sonar-ide.codehaus.org/eclipse/
+	\\file_srv\Apps\Tools
+	\\file_srv\Apps\Utilities\Eclipse
+	file://file_srv/Apps/Tools/
+	sonar version 5.
+	hisg076
+	password1
+	
+Hermes FTP:
+	host: sftp.harveynash.vn
+	Protocol: FTP
+	Encryption: Require explicit FTP over TLS
+	username : Hermes 
+	password : harveynash@1234
+
+Git:
+	git@kraken.uk.hermes-europe.co.uk:diversions-service.git
+	git@kraken.uk.hermes-europe.co.uk:diversions-web.git
+	git@kraken.uk.hermes-europe.co.uk:eta-service.git
+	git@kraken.uk.hermes-europe.co.uk:eta-web.git
+	
+Abbreviation:
+	ETA: Expected Time or Arrival
+	HHT: Handheld terminal
+	
+	Comment Jira: Tag 1 ông nào đó vào câu hỏi trên Jira theo cú pháp [~userId]
+	
+	jautodoc
+	
+#run sonar without scm check (skip svn)
+	mvn sonar:sonar -Dsonar.scm.disabled=true
+	
+#Change sonar location in maven settings files
+
+#sonar coverage
+mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install -Dmaven.test.failure.ignore=true
+
+clean org.jacoco:jacoco-maven-plugin:0.7.4.201502262128:prepare-agent install -Dmaven.test.failure.ignore=true
+
+#172.16.23.83 config:
+user/pass: root/harveynash@123
+new pass: harveynash@123
+service:
+tomcat_1 8081 opt/apache-tomcat/            tomcat/tomcat
+tomcat_3 8083       service
+sonar 9000
+jenkin 8088 hermes_ODC/qweasd@1234
+debug mode:modify shartup.sh jpda start
+port: 8001
+service tomcat_2 start
+
+Sonar result original:
+ClientDatabase:
+	-Major: 41
+	-Minor: 132
+	
+	plink.exe git@kraken.uk.hermes-europe.co.uk
+	
+	document.getElementsByTagName("video")[0].playbackRate = 0.75
+	
+	http://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.query-methods
+	
+	Sitemesh issue: https://github.com/sitemesh/sitemesh3/issues/25
+	
+Jenkin 60:
+http://172.16.23.60:8088/
+
+ETA:
+hnupdate/Welcome1
+
+Jenkin Virtual 33:
+172.16.30.33
+.\hermes_odc
+qweasd@1234
+
+harveynash@123
+skype: hodc_share/Thubeo123
+
+https://myhermescouk-qa.int.hlg.de/
+https://myhermescouk-sit.int.hlg.de/
+http://10.228.2.171/myhermes-bootstrap/output/loggedout/import.html
+http://10.228.2.168/myHermes/myhermes-ui/output/loggedout/login.html
+http://wiki.uk.hermes-europe.co.uk/display/MOM/Project+Standards
+
+git@kraken.uk.hermes-europe.co.uk:cognito-task-service.git
+git@kraken.uk.hermes-europe.co.uk:message-producer-service.git
+git@kraken.uk.hermes-europe.co.uk:pin-application.git
+git@kraken.uk.hermes-europe.co.uk:data-gateway-persistence.git
+git@kraken.uk.hermes-europe.co.uk:stub-service.git
+git@kraken.uk.hermes-europe.co.uk:momentum-api-processor.git
+git@kraken.uk.hermes-europe.co.uk:sample-api-processor-data.git
+
+hawtio
+
+new Server:
+172.16.30.43
+.\hermes_odc/qweasd@123
+
+{code:title=Bar.java|borderStyle=solid}{code}
+
+lsof -i TCP | grep 8015
