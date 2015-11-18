@@ -215,7 +215,8 @@ hawtio
 new Server:
 172.16.30.43
 .\hermes_odc/qweasd@123
-
+code: jdbc:oracle:thin:@172.16.30.43:1521/orcl.HarveyNash.vn.local
+sqldeveloper: orcl
 {code:title=Bar.java|borderStyle=solid}{code}
 
 lsof -i TCP | grep 8015
