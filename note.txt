@@ -220,3 +220,5 @@ sqldeveloper: orcl
 {code:title=Bar.java|borderStyle=solid}{code}
 
 lsof -i TCP | grep 8015
+
+check local sonar plugin the same with server
